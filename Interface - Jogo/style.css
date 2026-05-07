@@ -11,12 +11,21 @@ h1 {
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 300px;
     color: yellow;
     animation: crawl 30s linear infinite;
 }
 
 #nomeJogo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 800px;
+    perspective: 100px;
+    text-align: justify;
+}
+
+#textoJogo {
     display: flex;
     justify-content: center;
     position: relative;
